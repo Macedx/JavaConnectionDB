@@ -20,7 +20,7 @@ public class UsuarioDAO {
 		this.connection = new ConnectionFactory().conectar();
 	}
 		
-//		INSERT
+//		INSERT.
 		public void insert(Usuario usuario) {
 			String sql = "insert into usuario (nome, email, dataCadastro) values (?, ?, ?)";
 			try {
