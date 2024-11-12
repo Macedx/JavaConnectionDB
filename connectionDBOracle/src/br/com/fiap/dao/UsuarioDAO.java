@@ -47,7 +47,7 @@ public class UsuarioDAO {
 		}
 		}
 		
-//		UPDATE
+//		UPDATE.
 		public void update(Usuario usuario) {
 			String sql = "update usuario set npome=?, email=?, dataCadastro=? where id=?";
 			try {
