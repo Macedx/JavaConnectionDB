@@ -34,7 +34,7 @@ public class UsuarioDAO {
 			e.printStackTrace();
 		}
 		}
-//		DELETE
+//		DELETE.
 		public void delete(long id) {
 			String sql = "delete * from usuario where id=?";
 			try {
